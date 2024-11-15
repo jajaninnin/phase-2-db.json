@@ -1,444 +1,202 @@
 {
-  "example": [
+  "cupcakes": [
     {
-      "id": 1,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "1",
+      "name": "Rebel Red Velvet",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666167272112239/Red_Velvet_Cupcake.jpeg?ex=6733dbe0&is=67328a60&hm=f68ab2cebf8fcbc05869c3b9677afe988a41f83a99099eb1395a5b582c589a59&=&format=webp&width=1012&height=1012",
+      "price": 5.5,
+      "description": "Fluffy and moist, these buttery red velvet cupcakes are crowd favorite. The tangy cream cheese frosting puts them over the top!",
+      "allergies": "eggs, dairy"
     },
     {
-      "id": 2,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "2",
+      "name": "Chocoholic",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666168316756008/CoCo_Cupcake.jpeg?ex=6733dbe0&is=67328a60&hm=a15eca9e35b053b39521013d2c821898fc48b250fc6f2440ec89205a29ddd906&=&format=webp&width=1012&height=1012",
+      "price": 5,
+      "description": "Super moist, pack tons of chocolate flavor! Topped with a rich chocolate buttercream, The real chocolate gives the frosting a fudge-y quality that makes it a chocolate lover’s dream!",
+      "allergies": "eggs"
     },
     {
-      "id": 3,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "3",
+      "name": "Vanilla Bean Fantasy",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666169876774983/Vanille_Cupcake.jpeg?ex=6733dbe1&is=67328a61&hm=6ec422c8388919f3d7f0a5d3a369dba5578983b677cb640b83cbfcbf9e2aabf5&=&format=webp&width=1012&height=1012",
+      "price": 5.25,
+      "description": "They are perfectly moist, completely irresistible cupcakes! These light and fluffy cupcakes are topped with creamy vanilla buttercream and topped with sprinkles for the ultimate sweet treat.",
+      "allergies": "eggs, dairy"
     },
     {
-      "id": 4,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "4",
+      "name": "Strawberry Shortcupcake",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666167674769408/Strawberry_Cupcake.jpeg?ex=6733dbe0&is=67328a60&hm=76e9af37213c55ba27e0994853fdafbc74df87f1cb87fd6d1e01bbe130b0fbf5&=&format=webp&width=1012&height=1012",
+      "price": 5.75,
+      "description": "Classic, biscuit-style shortcupcake. The cupcake is filled and layered with sweet juicy organic strawberries and whipped cream for a delicious treat!",
+      "allergies": "eggs"
     },
     {
-      "id": 5,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "5",
+      "name": "Italian-ish Tiramisu",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666169621188668/Tiramisu_Cupcake.jpeg?ex=6733dbe0&is=67328a60&hm=b107d710935709b627f7f7e52fda752e8523e457791abbd64f5f0dcfc0d10775&=&format=webp&width=1012&height=1012",
+      "price": 6.25,
+      "description": "These cupcakes deliver all the flavor of the Italian dessert without the fuss. The vanilla cakes are soaked with coffee, topped with a rich amaretto-spiked mascarpone frosting, and dusted generously with cocoa powder for a simple, elegant finish.",
+      "allergies": "eggs, coffee, dairy"
     },
     {
-      "id": 6,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "6",
+      "name": "Oreo Overload",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666169361137714/Oreo_Cupcake.jpeg?ex=6733dbe0&is=67328a60&hm=18db863be182ea7f3850efa3423d5039f998aac9eb1aaa1a84bf1c709a643400&=&format=webp&width=1012&height=1012",
+      "price": 6.75,
+      "description": "These Oreo cupcakes will melt in your mouth and that cookies and cream frosting on top is nearly too good too be true. They're perfect for anything, especially just treating yourself!",
+      "allergies": "eggs, milk"
     },
     {
-      "id": 7,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "7",
+      "name": "Nutty Butter",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666168949968896/Peanut_Butter.jpeg?ex=6733dbe0&is=67328a60&hm=4b83e53b72545b1d0039c6230047b90375d8a1e30726db1c0dd2f3a38bc49083&=&format=webp&width=1012&height=1012",
+      "price": 6.5,
+      "description": "These tender cupcakes are made with peanut butter in the batter and are topped with creamy peanut butter frosting and crushed peanuts. They have a double dose of peanut butter for the perfect peanut butter cupcake recipe.",
+      "allergies": "eggs, peanut"
     },
     {
-      "id": 8,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "8",
+      "name": "Fudgiest Brownie",
+      "image": "https://media.discordapp.net/attachments/1304125336442896515/1305666168572477450/Brownie_Cupcake.jpeg?ex=6733dbe0&is=67328a60&hm=f7acf9385b3b849e46e5e5ecc07506fbcd061fca6ab1d8fd3e7579b869384c8d&=&format=webp&width=1012&height=1012",
+      "price": 6,
+      "description": "This brownie cupcakes recipe makes a cupcake that is fudgy and rich, just like brownies. They are topped with the silkiest white chocolate buttercream that literally melts in your mouth. ",
+      "allergies": "eggs"
     },
     {
-      "id": 9,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "9",
+      "name": "Carrot Cakey",
+      "image": "https://th.bing.com/th/id/OIG1.dWwgEHSlFJr1wmtF9AAn?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+      "price": 5.25,
+      "description": "Topped with cream cheese frosting. They're moist without being dense and have just the right amount of spice",
+      "allergies": "eggs, dairy"
     },
     {
-      "id": 10,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "10",
+      "name": "Lemony Goody",
+      "image": "https://th.bing.com/th/id/OIG2.i15cj0T_94cJnWaF87EU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+      "price": 5.5,
+      "description": "These light and fluffy Lemon Cupcakes are made with a creamy lemon frosting for the best lemon cupcakes! They are easy to make and perfect for spring and summer or everyday!",
+      "allergies": "eggs"
     },
     {
-      "id": 11,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "11",
+      "name": "Ice Ice Ice Cream",
+      "image": "https://th.bing.com/th/id/OIG1.MfhR9EKtU4qeVNShC70P?w=270&h=270&c=6&r=0&o=5&dpr=2&pid=ImgGn",
+      "price": 7,
+      "description": "Ice Cream Cupcakes are the perfect birthday cupcake with your favorite chocolate cake and ice cream all in one single serving!",
+      "allergies": "eggs, dairy"
     },
     {
-      "id": 12,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "12",
+      "name": "Cheesecake UnFactory",
+      "image": "https://th.bing.com/th/id/OIG3.IF_aKIaFMrd8mh.leWlY?w=270&h=270&c=6&r=0&o=5&dpr=2&pid=ImgGn",
+      "price": 7.5,
+      "description": "These Cheesecake Cupcakes have a smooth, creamy texture with a traditional buttery graham cracker crust topped with organic fresh raspberry.",
+      "allergies": "eggs, dairy"
+    }
+  ],
+  "cart": [
+    {
+      "id": "8d13",
+      "cupcakeId": "2",
+      "amount": 1
     },
     {
-      "id": 13,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "4516",
+      "cupcakeId": "1",
+      "amount": 1
     },
     {
-      "id": 14,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "76d2",
+      "cupcakeId": "12",
+      "amount": 1
     },
     {
-      "id": 15,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "d790",
+      "cupcakeId": "7",
+      "amount": 1
+    }
+  ],
+  "reviews": [
+    {
+      "id": "202f",
+      "name": "CupcakeLover",
+      "review": "Would give up everything for these cupcakes!",
+      "stars": 5
     },
     {
-      "id": 16,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "624c",
+      "name": "Food Critic",
+      "review": "Good cupcakes. I can make them better at home.",
+      "stars": "4"
     },
     {
-      "id": 17,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "e173",
+      "name": "Anonymous",
+      "review": "Middling cupcakes, they should serve more than cupcakes",
+      "stars": "3"
     },
     {
-      "id": 18,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "c329",
+      "name": "NutGuy",
+      "review": "I ordered the Nutty Butter cupcake and I am disappointed it does not have more crushed peanuts on top. I asked for a cup of crushed peanuts on top of my cupcake, the lady said it will not fit the top of my cupcake!",
+      "stars": "2"
     },
     {
-      "id": 19,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "ee70",
+      "name": "IceCreamGuy",
+      "review": "I ordered the Ice Ice Ice Cream cupcake and it melted in my mouth, not happy!",
+      "stars": "3"
     },
     {
-      "id": 20,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "f62c",
+      "name": "AmericanItalian",
+      "review": "I ordered the Italian-ish Tiramisu cupcake and I've never felt more SEEN",
+      "stars": 5
     },
     {
-      "id": 21,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "ebb5",
+      "name": "SummerGal",
+      "review": "Lemony Goody cupcake needs a whole candied lemon on top! Love it ",
+      "stars": "4"
     },
     {
-      "id": 22,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "0261",
+      "name": "Diabetic",
+      "review": "I am a regular here, I love these cupcakes, however, I'm currently on the hospital with some health emergency so I'm blaming this cupcakes. ",
+      "stars": "1"
     },
     {
-      "id": 23,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "5c02",
+      "name": "GingerGal",
+      "review": "The Rebel Red Velvet cupcake defined my soul.",
+      "stars": 5
     },
     {
-      "id": 24,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "10a9",
+      "name": "CheesyGuy",
+      "review": "The Cheesecake Unfactory cupcake tasted better than cheesecake factory cakes, I just lost a favorite restaurant.",
+      "stars": "1"
     },
     {
-      "id": 25,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "9c49",
+      "name": "SingleGirl",
+      "review": "The Vanilla Bean Fantasy cupcake did fulfilled my fantasy for the night! Who needs men? Will be buying here everyday!",
+      "stars": 5
     },
     {
-      "id": 26,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "23d3",
+      "name": "OreoAddict",
+      "review": "I bought a dozen of the Oreo Overload, let me tell you, my family loves me again!",
+      "stars": 5
     },
     {
-      "id": 27,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 28,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 29,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 30,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 31,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 32,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 33,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 34,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 35,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 36,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 37,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 38,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 39,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 40,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "id": "aa2e",
+      "name": "DogOwner",
+      "review": "Love that all the cupcakes are dog friendly! Amazing treat for me and my dogs!",
+      "stars": 5
     }
   ]
 }
